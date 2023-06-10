@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            border: 1px solid rgb(255, 255, 255);
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            right: 0px;
+            height: auto;
+            position: sticky;
+            overflow: auto;
+            top: 0;
+            background-color: gray;
+        }
+
+        li a {
+            display: block;
+            float: left;
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-right: 1px solid white ;
+        }
+
+        li a.active {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: black;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Scroll Down</h2>
+        <p>Scroll down to see the sticky effect.</p>
+      </div>
+
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Bikes</a></li>
+        <li><a href="#">Plane</a></li>
+        <li><a href="#">Man</a></li>
+        <li><a href="#">Woman</a></li>
+        <li><a href="#">Boy</a></li>
+        <li><a href="#">Girl</a></li>
+        <li><a href="#">Apple</a></li>
+        <li><a href="#">Banana</a></li>
+        <li><a href="#" style="float: right; border-left: 1px solid white;">About</a></li>
+    </ul>
+
+    <div style="margin-top: 100px;padding:1px 16px;height:1000px;">
+        <h2>Fixed Full-height Side Nav</h2>
+        <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+        <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+</body>
+</html>
