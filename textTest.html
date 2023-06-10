@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                text-shadow: 2px 2px 5px red;
+            }
+            div.test {
+                white-space: nowrap;
+                width: 200px;
+                overflow: hidden;
+                border: 1px solid #000000;
+            }
+
+            div.test:hover {
+                overflow: visible;
+            }
+
+            p.test1 {
+                width: 11em;
+                border: 1px solid #000000;
+                word-break: break-all;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hover over the two divs below, to see the entire text.</p>
+        <div class="test" style="text-overflow: ellipsis;">This is some long text that will not fit in the box</div>
+        <br>
+        <div class="test" style="text-overflow: clip;">This is some long text that will not fit in the box</div>
+        <br>
+        <p class="test1">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+        <h1>Text-shadow effect!</h1>
+    </body>
+    </html>
