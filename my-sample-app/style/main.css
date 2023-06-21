@@ -1,0 +1,31 @@
+.box {
+  box-shadow: 5px 5px #000;
+  margin: 0px 10px 0px 10px;
+  padding: 0;
+  display: block;
+  height: auto;
+  border: 5px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.display-img {
+  border-radius: 10px;
+  height: 20vh;
+  margin: 2px;
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+  transition-delay: 500ms;
+  box-shadow: 3px 3px #dbd2d2;
+}
+
+.display-img:hover {
+  border: 2px solid black;
+  transform: scale(3, 3);
+}
+
+.title {
+  font-size: 30pt;
+  text-shadow: 5px 5px 5px lightblue;
+}
