@@ -177,11 +177,12 @@ img[alt="Fruit"] {
 }
 
 .fifthpage {
+    background-color: white;
+}
+
+.aboutsugar {
+    float: left;
     background-color: rgb(233, 233, 233);
-    margin-top: 0;
-    margin-left: 0px;
-    padding-top: 8%;
-    padding-left: 10%;
     height: 600px;
     text-align: start;
     width: 50%;
@@ -190,24 +191,33 @@ img[alt="Fruit"] {
     right: 0;
 }
 
-.lasttxt {
+.aboutsugartxt {
     font-size: 15px;
     color: rgb(63, 62, 62);
+    padding-left: 10%;
+}
+
+.aboutsugarheading {
+        color: rgb(158, 121, 74);
+        padding-top: 25%;
+        padding-left: 10%;
+        
 }
 
 .btn3 {
     border: 2px solid rgb(158, 121, 74);
     border-radius: 30px;
     padding: 5px 25px;
-    margin-top: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
     text-align: center;
 }
 
 .milkbowl {
     width: 50%;
+    float: left;
 }
 
 .milkbowl img{
     width: 100%;
-
 }
