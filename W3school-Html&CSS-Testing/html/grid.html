@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+        }
+
+        .grid-item {
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            background-color: skyblue;
+            border: 1px solid blue;
+        }
+
+        .area {
+            grid-area: 1;
+        }
+
+        .item1 {
+            grid-column: 2 / 4;
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            background-color: skyblue;
+            border: 1px solid blue;
+        }
+
+        
+        .item2 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+            background-color: skyblue;
+            border: 1px solid blue;
+        }
+
+        .grid-container2 {
+            margin: 50px;
+            display: inline-grid;
+            gap: 50px 20px;
+            grid-template-columns: 300px auto 300px;
+            grid-template-rows: 300px auto 300px;
+        }
+
+        .grid-item2 {
+            text-align: center;
+            padding: 100px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
+        .grid-container3 {
+            justify-content: center;
+            margin: auto;
+            gap: 10px;
+            display: grid;
+            background-color: plum;
+            width: 50%;
+            grid-template-columns: auto auto auto;
+        }
+
+        .grid-item3 {
+            text-align: center;
+            padding: 50px;
+            background-color: pink;
+        }
+
+        .grid-item3:hover {
+            cursor: pointer;
+            background-color: rgb(247, 195, 247);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container1">
+        <div class="grid-item">X</div>
+        <div class="item1">X</div>
+        <div class="grid-item">X</div>
+        <div class="item2">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+        <div class="grid-item">X</div>
+    </div>
+
+    <div class="grid-container2">
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+        <div class="grid-item2">X</div>
+    </div>
+
+    <div class="grid-container3">
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+        <div class="grid-item3">X</div>
+    </div>
+</body>
+</html>
