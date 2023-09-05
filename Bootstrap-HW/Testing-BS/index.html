@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Bootstrap</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+    <p class="h2 text-center text-primary">Testing Bootstrap</p>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--Tables-->
+            <div class="col-sm-6 col-12 border-end border-2 border-danger">
+                <div class="container mt-3">
+                    <p class="h4 text-danger text-center">Table</p>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>sss123@ex.com</td>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td>Moe</td>
+                                <td>hajks@ex.com</td>
+                            </tr>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>sss999@ex.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!--Image-->
+            <div class="col-sm-6 col-12 bg-light">
+                <p class="h4 text-danger text-center">Image</p>
+                <img src="image/1.jpg" alt="beach" class="img-thumbnail mx-auto d-block" width="70%">
+            </div>
+        </div>
+
+        <div class="row">
+            <!--Jumbotron-->
+            <div class="col-sm-6 col-12 mt-4 p-5 bg-warning text white rounded">
+                <h1>Jumbotron Example</h1> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+            </div>
+
+            <!--Alert-->
+            <div class="mt-4 col-sm-6 col-12">
+                <p class="h4 text-danger text-center">Alert Boxes</p>
+                <div class="alert alert-success">
+                    <strong>WOW!</strong> You won a prize. <a href="#" class="alert-link">click to get!</a>
+                </div>
+                <div class="alert alert-dark alert-dismissible fade show">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Hello!</strong>This is an advertisement.
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--Button-->
+            <div class="mt-4 col-sm-6 col-12">
+                <div class="text-center">
+                    <p class="h4 text-danger">Buttons</p>
+                    <div class="d-grid"><button type="button" class="btn btn-success btn-block">Button</button></div>
+                    <button type="button" class="btn btn-primary active mt-4">Active Primary</button>
+                    <button type="button" class="btn btn-primary mt-4" disabled>Disabled Primary</button>
+                    <button class="mt-4 btn btn-primary">
+                        <span class="spinner-border spinner-border-sm"></span>
+                        Loading...
+                    </button>
+                    <button class="mt-4 btn btn-primary">
+                        <span class="spinner-grow spinner-grow-sm"></span>
+                        Loading...
+                    </button>
+                </div>
+            </div>
+
+            <!--Button groups-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Buttons</p>
+                <div class="btn-group btn-group-lg">
+                    <button type="button" class="btn btn-primary">BMW</button>
+                    <button type="button" class="btn btn-primary">Mercedes</button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Volvo</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">High Price</a></li>
+                            <li><a href="#" class="dropdown-item">Low Price</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <!--Badges-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Badges</p>
+                <p class="bg-primary">Features <span class="badge rounded-pill bg-info">New</span></p>
+                <button type="button" class="btn btn-primary col-sm-3">
+                    Messages <span class="badge bg-danger">4</span>
+                </button>
+            </div>
+
+            <!--Progress Bar-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Progress Bar</p>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 70%; font-size: 70%;">70%</div>
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 30%; font-size: 30%;">30%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--Spinners-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Spinners</p>
+                <button class="btn btn-primary">
+                    <span class="spinner-grow spinner-grow-sm text-danger"></span>
+                    Loading...
+                </button>
+                <button class="btn btn-primary" disabled>
+                    <span class="spinner-grow spinner-grow-sm text-danger" ></span>
+                    Loading...
+                </button>
+            </div>
+
+            <!--Pagination-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Pagination</p>
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+
+                <ul class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="#">Photos</a></li>
+                    <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+                    <li class="breadcrumb-item"><a href="#">Italy</a></li>
+                    <li class="breadcrumb-item"><a href="#">Rome</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--List Group-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">List Group</p>
+                <div class="row">
+                    <div class="list-group col-sm-6 list-group-numbered">
+                        <a href="#" class="list-group-item disabled">Disabled item</a>
+                        <a href="#" class="list-group-item active">Avtive item</a>
+                        <a href="#" class="list-group-item list-group-item-danger">Default item</a>
+                    </div>
+                    <ul class="list-group col-sm-6">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Inbox
+                            <span class="badge bg-primary rounded-pill">12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Ads
+                            <span class="badge bg-primary rounded-pill">9</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Junk
+                            <span class="badge bg-primary rounded-pill">90</span>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+
+            <!--Card-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Card</p>  
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 400px;">
+                        <img class="card-img-top" src="image/img_avatar1.png" alt="Card image" style="width: 100%;">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--Dropdown-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Dropdown</p>
+                <div class="dropdown dropend">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        Dropend
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item bg-info"><a href="#">1</a></li>
+                        <li class="dropdown-item bg-info"><a href="#">2</a></li>
+                        <li class="dropdown-item bg-info"><a href="#">3</a></li>
+                        <li><span class="dropdown-item-text">text</span></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!--Collapse-->
+            <div class="mt-4 col-sm-6 col-12 text-center">
+                <p class="h4 text-danger">Collapse</p>  
+                
+                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">
+                    Collapsible
+                </button>
+                <div id="demo" class="collapse">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+
+                <div id="accordion" class="mt-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#col1">
+                                Item #1
+                            </a>
+                        </div>
+                        <div id="col1" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#col2">
+                                Item #2
+                            </a>
+                        </div>
+                        <div id="col2" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#col3">
+                                Item #3
+                            </a>
+                        </div>
+                        <div id="col3" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

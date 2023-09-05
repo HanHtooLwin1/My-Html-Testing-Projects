@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/008cb3d261.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-size: 80%;
+            font-weight: 550;
+            background-color: rgb(241, 241, 241);
+        }
+
+        .brandname {
+            background-color: rgb(21, 160, 148);
+            font-size: large;
+            color: rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+
+        .info-title {
+            font-size: 130%;
+            
+        }
+
+        .info-style {
+            background-color:  rgb(21, 160, 148);
+            color: white;
+            
+        }
+
+        .text-1 {
+            font-size: 60%;
+            color: #707070;
+            background-color: rgb(222, 233, 235);
+            width: 10%;
+            border-radius: 6%;
+        }
+
+        .text-2 {
+            font-size: 60%;
+            color: #ffffff;
+            background-color: rgb(21, 160, 148);
+            width: 10%;
+            border-radius: 6%;
+        } 
+        
+        .text-3 {
+            font-size: 60%;
+            color: #707070;
+            background-color: rgb(222, 233, 235);
+            width: 15%;
+            border-radius: 6%;
+        }
+        
+        .instruction-1 {
+            letter-spacing: -0.5px;
+            font-size: 140%;
+            padding-right: 20%;
+        }
+
+        .pf-logo {
+            width: 5%;
+            height: 5%;
+            border-radius: 100%;
+            padding-top: 1%;
+        }
+
+        .clander {
+            padding-top: 2%;
+        }
+
+        .detail-1 {
+            font-size: 60%;
+            color: #707070;
+            border-right: 1px solid #8f8f8f;
+        }
+
+        .date {
+            font-size: 60%;
+            color: #707070;
+            border-right: 1px solid #8f8f8f;
+        }
+
+        .desc1 {
+            letter-spacing: 0.5px;
+            font-size: 74%;
+            color: #636363;
+        }
+
+        .instruction-2 {
+            font-size: 90%;
+        }
+
+        
+        .desc2 {
+            letter-spacing: 0.5px;
+            font-size: 70%;
+            color: #636363;
+        }
+    </style> 
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgb(222, 233, 235);">
+        <div class="container py-2 text-">
+            <div class="row">
+                <!--Left End Nav-->
+                <ul class="nav col-sm-5 col-3 justify-content-start p-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">
+                            Homepages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Homepage 1</a></li>
+                            <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+                            <li><a class="dropdown-item" href="#">Homepage 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            <li><a class="dropdown-item" href="#">Category 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                            <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!--Brand name-->
+                <a class="navbar-brand col-sm-2 col-6 px-5 py-1" href="#"><span class="brandname">Note</span>Book<span style="color: rgb(21, 160, 148); font-size: 20px;">.</span></a>
+                    
+                <!--Right End Nav-->
+                <ul class="nav col-sm-5 col-3 justify-content-end px-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-pen-to-square" style="color: #000000;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">
+                            En
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                            <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-7 mt-4 py-3 info-title" style="margin-left: 7%;">
+                <p>
+                    <span class="info-style">Featured</span> This Month
+                </p>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="text-1 mt-4 mb-0 text-center">Travel</p>
+                        <p class="instruction-1 pt-0">
+                            Set Video Playback Speed With Javascript
+                        </p>
+                        <div style="border-radius: 6px;
+                                    width: 100%;
+                                    height: 35%;
+                                    background-color: #cacaca;
+                                    ">
+                            <img src="image/img_avatar1.png" alt="" style="width: 100%; height: 100%; opacity: 0;">
+                        </div>
+                        <div class="mt-3 d-flex float-left">
+                            <img src="image/img_avatar1.png" class="pf-logo" alt="">
+                            <p class="detail-1 mx-1 mt-1 px-1">Jenny Kiaa </p>
+                            
+                            <i class="mt-1 fa-regular fa-calendar fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                            <p class="date mt-1 mx-1 px-1">02 December 2022</p>
+
+                            <i class="mt-1 fa-regular fa-clock fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                            <p class="date mt-1 mx-1 px-1">3 Min. To Read</p>
+                        </div>
+                        <p class="desc1">
+                            Did you come here for something in particular or just general Riker-bashing? And blowing into
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <p class="text-2 mt-4 mb-0 text-center">Travel</p>
+                        <p class="instruction-1 pt-0">
+                            Design Is The Mix Of Emotions 
+                        </p>
+                        <div style="border-radius: 6px;
+                                    width: 100%;
+                                    height: 35%;
+                                    background-color: #cacaca;
+                                    ">
+                            <img src="image/img_avatar1.png" alt="" style="width: 100%; height: 100%; opacity: 0;">
+                        </div>
+                        <div class="mt-3 d-flex float-left">
+                            <img src="image/img_avatar1.png" class="pf-logo" alt="">
+                            <p class="detail-1 mx-1 mt-1 px-1">Jenny Kiaa </p>
+                            
+                            <i class="mt-1 fa-regular fa-calendar fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                            <p class="date mt-1 mx-1 px-1">02 December 2022</p>
+
+                            <i class="mt-1 fa-regular fa-clock fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                            <p class="date mt-1 mx-1 px-1">3 Min. To Read</p>
+                        </div>
+                        <p class="desc1">
+                            Did you come here for something in particular or just general Riker-bashing? And blowing into
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 mx-5 px-0 mt-4 py-3 info-title">
+                <p>
+                    <span class="info-style">Populer</span> Posted
+                </p>
+                <p class="text-3 mb-0 text-center" style="margin-top: 13%;">Travel</p>
+                <p class="instruction-2 mt-1">Design Is The Mix Of Emotions</p>
+
+                <div class="mt-3 d-flex float-left">
+                    <img src="image/img_avatar1.png" class="pf-logo" alt="">
+                    <p class="detail-1 mx-1 mt-1 px-1">Jenny Kiaa </p>
+                    
+                    <i class="clander mt-1 fa-regular fa-calendar fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                    <p class="date mt-1 mx-1 px-1">02 December 2022</p>
+
+                    <i class="mt-1 fa-regular fa-clock fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                    <p class="date mt-1 mx-1 px-1">3 Min. To Read</p>
+                </div>
+                <p class="desc2">
+                    Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp
+                </p>
+
+                <p class="text-3 mt-5 mb-0 text-center ">Travel</p>
+                <p class="instruction-2 mt-1">Design Is The Mix Of Emotions</p>
+
+                <div class="mt-3 d-flex float-left">
+                    <img src="image/img_avatar1.png" class="pf-logo" alt="">
+                    <p class="detail-1 mx-1 mt-1 px-1">Jenny Kiaa </p>
+                    
+                    <i class="clander mt-1 fa-regular fa-calendar fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                    <p class="date mt-1 mx-1 px-1">02 December 2022</p>
+
+                    <i class="mt-1 fa-regular fa-clock fa-2xs" style="padding-top: 2%; color: #686868;"></i>
+                    <p class="date mt-1 mx-1 px-1">3 Min. To Read</p>
+                </div>
+                <p class="desc2">
+                    Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
