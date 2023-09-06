@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bg {
+    background-color: rgb(255, 102, 0);
+}
+
+.nav-link-style {
+    font-size: 100%;
+}
+
+.bg-grey {
+    background-color: rgb(235, 235, 235);
+}
+
+.main-image {
+    width: 100%;
+    height: 550px;
+}
+
+.card-style {
+    background-color: rgb(247, 247, 247);
+    width: 23%;
+    height: 350px;
+    box-shadow: 1px 2px rgb(206, 204, 204);
+}
+
+.card-title {
+    color: rgb(44, 127, 252);
+}
+
+.card-text {
+    font-size: 70%;
+}
+
+.icon-style {
+    color: rgb(255, 102, 0);
+    font-size: 350%;
+}
+
+.btn-style {
+    background-color: rgb(44, 123, 241);
+    color: white;
+    font-size: 80%;
+    border: none;
+    margin-top: 27%;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-image {
+        width: 100%;
+        height: 400px;
+    }
+
+    .card-style {
+        background-color: rgb(247, 247, 247);
+        width: 45%;
+        height: 350px;
+        padding: 0;
+        box-shadow: 1px 2px rgb(206, 204, 204);
+    }
+
+    .card-text {
+        font-size: 80%;
+    }
+
+    
+    .btn-style {
+        background-color: rgb(44, 123, 241);
+        color: white;
+        font-size: 80%;
+        border: none;
+        margin-top: 0%;
+    }
+
+    .phone-style {
+        padding-left: 0;
+    }
+} 
