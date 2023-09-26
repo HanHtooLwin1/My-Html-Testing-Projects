@@ -184,3 +184,103 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+
+.activity-profile-img {
+    width: 10%;
+    margin-left: 5px;
+}
+
+.activity-profile-img img{
+    background-color: rgb(189, 190, 224);
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.acc-name-3 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.activity-bar {
+    margin-top: 50px;
+}
+
+.activity {
+    color: rgb(129, 129, 129);
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.edit-activity {
+    color: rgb(129, 129, 129);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 33px;
+    margin-top: -28px;
+}
+
+.activity-date {
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dot {
+    vertical-align: super;
+}
+
+.privacy-icon {
+    color: rgb(129, 129, 129);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.caption {
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+}
+
+.changed-pf-img img{
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.heart-emj {
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+}
+
+.like-emj {
+    width: 35px;
+    height: 35px;
+    margin-left: -20px;
+}
+
+.react-count {
+    margin-top: 6px;
+    font-size: 16px;
+    color: rgb(129, 129, 129);
+}
+
+.hr2 {
+    color: rgb(129, 129, 129);
+}
+
+.activity-btn {
+    background-color: transparent;
+    border: none;
+    width: 32%;
+}
+
+.btn-name {
+    color: rgb(129, 129, 129);
+    margin-left: 3px;
+    font-size: 16px;
+}
